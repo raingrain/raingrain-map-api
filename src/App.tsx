@@ -17,8 +17,8 @@ export const App = () => {
         mapDocument.addLayer(layer);
         createMapWindow({
             container: "container",
-            width: 1000,
-            height: 800
+            width: 800,
+            height: 600
         }, mapDocument);
         // downloadGeoJsonFile(createGeoJsonFeatureCollectionAsALayer(mapDocument.layers[0]), layer.name);
     }
