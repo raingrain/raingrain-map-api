@@ -1,11 +1,9 @@
 import China from "./assets/data/China.json";
 // import ShangHai from "./assets/data/ShangHai.json";
 import {
-    createGeoJsonFeatureCollectionAsALayer,
     createMapDocument,
     createMapWindow,
     destroyMapWindow,
-    downloadGeoJsonFile,
     FeatureCollection,
     readGeoJsonFeatureCollectionAsALayer
 } from "./map-engine";
