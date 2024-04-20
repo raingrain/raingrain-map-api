@@ -22,7 +22,7 @@ export const App = () => {
             width: 1000,
             height: 800
         }, mapDocument);
-        downloadGeoJsonFile(createGeoJsonFeatureCollectionAsALayer(mapDocument.layers[0]), layer.name);
+        // downloadGeoJsonFile(createGeoJsonFeatureCollectionAsALayer(mapDocument.layers[0]), layer.name);
     }
 
 
